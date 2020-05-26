@@ -50,6 +50,7 @@
 				$mat_khau_1 = $_POST["mat_khau_1"];
 				//làm sạch thông tin, xóa bỏ các tag html, ký tự đặc biệt 
 				//mà người dùng cố tình thêm vào để tấn công theo phương thức sql injection
+				//
 				$ky_danh = strip_tags($ky_danh);
 				$ky_danh = addslashes($ky_danh);
 				$mat_khau = strip_tags($mat_khau);

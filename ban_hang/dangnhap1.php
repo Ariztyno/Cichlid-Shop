@@ -38,6 +38,7 @@
 			//Gọi file connection.php ở bài trước
 			//require_once("lib/connection.php");
 			// Kiểm tra nếu người dùng đã ân nút đăng nhập thì mới xử lý
+			//
 			if (isset($_POST["btn_submit"])) {
 				// lấy thông tin người dùng
 				$ky_danh = $_POST["ky_danh"];

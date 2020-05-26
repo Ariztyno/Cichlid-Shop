@@ -5,6 +5,7 @@
 	$databasename="ban_hang";
 
 	//truy vấn database
+	//
 	$link=mysqli_connect($hostname,$username,$password,$databasename);
 	if (!$link) {
 	    die('Could not connect: ' . mysqli_error());
