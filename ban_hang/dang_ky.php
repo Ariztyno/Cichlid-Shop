@@ -47,7 +47,9 @@
 				$vai_tro = "khach";
 				$ky_danh = $_POST["ky_danh"];
 				$mat_khau = $_POST["mat_khau"];
+				$mat_khau=md5($mat_khau);
 				$mat_khau_1 = $_POST["mat_khau_1"];
+				$mat_khau_1=md5($mat_khau_1);
 				//làm sạch thông tin, xóa bỏ các tag html, ký tự đặc biệt 
 				//mà người dùng cố tình thêm vào để tấn công theo phương thức sql injection
 				//
